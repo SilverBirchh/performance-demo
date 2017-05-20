@@ -5,6 +5,8 @@ export default Ember.Component.extend({
   xAxis: 5,
   yAxis: 4,
 
+  interval: 1000,
+
   init() {
     this._super(...arguments);
     this.get('xAxis');

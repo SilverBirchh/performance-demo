@@ -1,11 +1,11 @@
 <div class="container">
-  {{ grid-options xAxis=xAxis yAxis=yAxis }}
+  {{ grid-options xAxis=xAxis yAxis=yAxis interval=interval }}
 
 
   {{#each yAxisArray}}
   <div>
     {{#each xAxisArray}}
-      {{ grid-square }}
+      {{ grid-square interval=interval }}
     {{/each}}
   </div>
   {{/each}}
