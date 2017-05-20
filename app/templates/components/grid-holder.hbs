@@ -1,1 +1,12 @@
-{{yield}}
+<div class="container">
+  {{ grid-options xAxis=xAxis yAxis=yAxis }}
+
+
+  {{#each yAxisArray}}
+  <div>
+    {{#each xAxisArray}}
+      {{ grid-square }}
+    {{/each}}
+  </div>
+  {{/each}}
+</div>

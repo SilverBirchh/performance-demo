@@ -1,1 +1,15 @@
 @import "bootstrap";
+
+.square {
+  border: 1px solid black;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  padding: 20px;
+  text-align: center;
+  margin: 5px;
+}
+
+.container {
+  text-align: center;
+}
